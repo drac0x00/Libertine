@@ -39,7 +39,7 @@
 "-------------------------------------|-----------------------------------------
 "   BASIC         HEX                 |     BASIC         HEX                  |
 "-------------------------------------|-----------------------------------------
-"   Foreground    #ffffdf             |     Selection     #008787              |
+"   Foreground    #ffffdf             |     Selection     #dfdf00              |
 "   Background    #303030             |     Selected Text #1c1c1c              |
 "   Bold          #ffffff             |                                        |
 "   Links         #dfaf00             |                                        |
