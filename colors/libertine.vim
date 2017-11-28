@@ -93,6 +93,7 @@ if 1
     highlight Underlined           guifg=#eeeeee  guibg=NONE     gui=NONE       ctermfg=255   ctermbg=NONE  cterm=NONE
     highlight Question             guifg=#eeeeee  guibg=NONE     gui=NONE       ctermfg=255   ctermbg=NONE  cterm=NONE
     highlight SignColumn           guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
+    highlight Label                guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
     highlight Function             guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
     highlight Identifier           guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
     highlight Statement            guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
@@ -164,3 +165,4 @@ endif
 " LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 " OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 " THE SOFTWARE.
+
