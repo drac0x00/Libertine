@@ -1,6 +1,4 @@
 # Libertine
-:space_invader: Set Up
-------
 
 :crescent_moon: Dev Build
 ----------------------------
@@ -8,6 +6,7 @@ development version [here](https://github.com/AlessandroYorba/Libertine/tree/nig
 
 :octopus: Moar Colorschemes
 -------
-[Despacio](https://github.com/AlessandroYorba/Despacio)<br>
+[Alduin](https://github.com/AlessandroYorba/Alduin)<br>
 [Sierra](https://github.com/AlessandroYorba/Sierra)<br>
+[Despacio](https://github.com/AlessandroYorba/Despacio)<br>
 [Arcadia](https://github.com/AlessandroYorba/Arcadia)<br>
