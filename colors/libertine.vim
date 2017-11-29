@@ -13,7 +13,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:
 " UPDATED:      Nov 28, 2017
-" LATEST CHANGES: Lighter Comments
+" LATEST CHANGES: Testing Function and Indentifier Colors
 
 
 " MAINTAINER: Alessandro Yorba    https://github.com/AlessandroYorba/Libertine
@@ -93,9 +93,11 @@ if 1
     highlight Underlined           guifg=#eeeeee  guibg=NONE     gui=NONE       ctermfg=255   ctermbg=NONE  cterm=NONE
     highlight Question             guifg=#eeeeee  guibg=NONE     gui=NONE       ctermfg=255   ctermbg=NONE  cterm=NONE
     highlight SignColumn           guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
-    highlight Label                guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
-    highlight Function             guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
-    highlight Identifier           guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
+    "highlight Label                guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
+    "highlight Function             guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
+    highlight Function             guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30    ctermbg=NONE  cterm=NONE
+    "highlight Identifier           guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
+    highlight Identifier           guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30    ctermbg=NONE  cterm=NONE
     highlight Statement            guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
     highlight htmlArg              guifg=#d75f00  guibg=NONE     gui=NONE       ctermfg=166   ctermbg=NONE  cterm=NONE
     highlight htmlEndTag           guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
