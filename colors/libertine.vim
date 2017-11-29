@@ -12,8 +12,8 @@
                                                        
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:
-" UPDATED:      Nov 28, 2017
-" LATEST CHANGES: Underline now has underlines
+" UPDATED:      Nov 29, 2017
+" LATEST CHANGES: testing out new Pmenu
 
 
 " MAINTAINER: Alessandro Yorba    https://github.com/AlessandroYorba/Libertine
@@ -99,7 +99,8 @@ if 1
     highlight Function             guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30    ctermbg=NONE  cterm=NONE
     "highlight Identifier           guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
     highlight Identifier           guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30    ctermbg=NONE  cterm=NONE
-    highlight Statement            guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
+    "highlight Statement            guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
+    highlight Statement           guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30    ctermbg=NONE  cterm=NONE
     highlight htmlStatement        guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30    ctermbg=NONE  cterm=NONE
     highlight htmlArg              guifg=#d75f00  guibg=NONE     gui=NONE       ctermfg=166   ctermbg=NONE  cterm=NONE
     "highlight htmlEndTag           guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
@@ -124,18 +125,18 @@ if 1
     highlight ColorColumn          guifg=NONE     guibg=#3a3a3a  gui=NONE       ctermfg=NONE  ctermbg=237   cterm=NONE
     highlight StatusLine           guifg=#bcbcbc  guibg=#3a3a3a  gui=NONE       ctermfg=250   ctermbg=237   cterm=NONE
     highlight TabLineSel           guifg=#bcbcbc  guibg=#3a3a3a  gui=NONE       ctermfg=250   ctermbg=237   cterm=NONE
-    highlight PmenuSel             guifg=#eeeeee  guibg=#262626  gui=NONE       ctermfg=255   ctermbg=235   cterm=NONE
     highlight StatusLineNC         guifg=#767676  guibg=#3a3a3a  gui=NONE       ctermfg=243   ctermbg=237   cterm=NONE
     highlight VertSplit            guifg=#262626  guibg=#303030  gui=NONE       ctermfg=235   ctermbg=236   cterm=NONE
     highlight VertSplit            guifg=#444444  guibg=#303030  gui=NONE       ctermfg=238   ctermbg=236   cterm=NONE
     highlight TabLine              guifg=#767676  guibg=#3a3a3a  gui=NONE       ctermfg=243   ctermbg=237   cterm=NONE
     highlight TabLineFill          guifg=#767676  guibg=#3a3a3a  gui=NONE       ctermfg=243   ctermbg=237   cterm=NONE
-    highlight Pmenu                guifg=#585858  guibg=#262626  gui=NONE       ctermfg=240   ctermbg=235   cterm=NONE
+    highlight Pmenu                guifg=#767676  guibg=#3a3a3a  gui=NONE       ctermfg=243   ctermbg=237   cterm=NONE
+    highlight PmenuSel             guifg=#eeeeee  guibg=#3a3a3a  gui=NONE       ctermfg=255   ctermbg=237   cterm=NONE
+    highlight PmenuSbar            guifg=#3a3a3a  guibg=#3a3a3a  gui=NONE       ctermfg=237   ctermbg=237   cterm=NONE
+    highlight PmenuThumb           guifg=#3a3a3a  guibg=#3a3a3a  gui=NONE       ctermfg=237   ctermbg=237   cterm=NONE
     highlight LineNr               guifg=#4e4e4e  guibg=#262626  gui=NONE       ctermfg=239   ctermbg=235   cterm=NONE
     highlight NonText              guifg=#444444  guibg=NONE     gui=NONE       ctermfg=238   ctermbg=NONE  cterm=NONE
     highlight SpecialKey           guifg=#444444  guibg=NONE     gui=NONE       ctermfg=238   ctermbg=NONE  cterm=NONE
-    highlight PmenuSbar            guifg=#262626  guibg=#262626  gui=NONE       ctermfg=235   ctermbg=235   cterm=NONE
-    highlight PmenuThumb           guifg=#262626  guibg=#262626  gui=NONE       ctermfg=235   ctermbg=235   cterm=NONE
     highlight Comment              guifg=#626262  guibg=NONE     gui=NONE       ctermfg=241   ctermbg=NONE  cterm=NONE
     highlight Folded               guifg=#585858  guibg=NONE     gui=NONE       ctermfg=240   ctermbg=NONE  cterm=NONE
     highlight SpellBad             guifg=#d70000  guibg=NONE     gui=undercurl  ctermfg=160   ctermbg=NONE  cterm=undercurl
