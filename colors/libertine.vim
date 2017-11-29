@@ -13,7 +13,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:
 " UPDATED:      Nov 28, 2017
-" LATEST CHANGES: Testing Function and Indentifier Colors
+" LATEST CHANGES: Testing out new Label Color
 
 
 " MAINTAINER: Alessandro Yorba    https://github.com/AlessandroYorba/Libertine
