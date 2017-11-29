@@ -14,7 +14,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:
 " UPDATED:      Nov 28, 2017
-" LATEST CHANGES:
+" LATEST CHANGES: Lighter Comments
 
 
 " MAINTAINER: Alessandro Yorba    https://github.com/AlessandroYorba/Libertine
@@ -133,7 +133,7 @@ if 1
     highlight SpecialKey           guifg=#444444  guibg=NONE     gui=NONE       ctermfg=238   ctermbg=NONE  cterm=NONE
     highlight PmenuSbar            guifg=#262626  guibg=#262626  gui=NONE       ctermfg=235   ctermbg=235   cterm=NONE
     highlight PmenuThumb           guifg=#262626  guibg=#262626  gui=NONE       ctermfg=235   ctermbg=235   cterm=NONE
-    highlight Comment              guifg=#585858  guibg=NONE     gui=NONE       ctermfg=240   ctermbg=NONE  cterm=NONE
+    highlight Comment              guifg=#626262  guibg=NONE     gui=NONE       ctermfg=241   ctermbg=NONE  cterm=NONE
     highlight Folded               guifg=#585858  guibg=NONE     gui=NONE       ctermfg=240   ctermbg=NONE  cterm=NONE
     highlight SpellBad             guifg=#d70000  guibg=NONE     gui=undercurl  ctermfg=160   ctermbg=NONE  cterm=undercurl
     highlight SpellLocal           guifg=#87d700  guibg=NONE     gui=undercurl  ctermfg=112   ctermbg=NONE  cterm=undercurl
