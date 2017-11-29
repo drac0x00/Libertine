@@ -13,7 +13,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:
 " UPDATED:      Nov 28, 2017
-" LATEST CHANGES: revised htmlStatements 
+" LATEST CHANGES: Underline now has underlines
 
 
 " MAINTAINER: Alessandro Yorba    https://github.com/AlessandroYorba/Libertine
@@ -90,7 +90,7 @@ if 1
     highlight Conditional          guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
     highlight Operator             guifg=#a8a8a8  guibg=NONE     gui=NONE       ctermfg=248   ctermbg=NONE  cterm=NONE
     highlight Constant             guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178   ctermbg=NONE  cterm=NONE
-    highlight Underlined           guifg=#eeeeee  guibg=NONE     gui=NONE       ctermfg=255   ctermbg=NONE  cterm=NONE
+    highlight Underlined           guifg=#eeeeee  guibg=NONE     gui=underline  ctermfg=255   ctermbg=NONE  cterm=underline
     highlight Question             guifg=#eeeeee  guibg=NONE     gui=NONE       ctermfg=255   ctermbg=NONE  cterm=NONE
     highlight SignColumn           guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
     "highlight Label                guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
