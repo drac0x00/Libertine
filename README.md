@@ -1,5 +1,4 @@
 # Libertine
-Still in it's early development so I'm certain there will be color changes. I'm trying to balance it so that the colors are legible and pleasant to look at. So far, I'm not entirely dissatisfied with it. 
 
 :crescent_moon: Dev Build
 ----------------------------

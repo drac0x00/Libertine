@@ -13,7 +13,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:
 " UPDATED:      Nov 29, 2017
-" LATEST CHANGES: removed Boolean
+" LATEST CHANGES: testing out new Boolean
 
 
 " MAINTAINER: Alessandro Yorba    https://github.com/AlessandroYorba/Libertine
@@ -93,6 +93,7 @@ if 1
     highlight Underlined           guifg=#eeeeee  guibg=NONE     gui=underline  ctermfg=255   ctermbg=NONE  cterm=underline
     highlight Question             guifg=#eeeeee  guibg=NONE     gui=NONE       ctermfg=255   ctermbg=NONE  cterm=NONE
     highlight SignColumn           guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
+    "highlight Boolean              guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
     highlight Label                guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
     highlight Function             guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30    ctermbg=NONE  cterm=NONE
     highlight Identifier           guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30    ctermbg=NONE  cterm=NONE
