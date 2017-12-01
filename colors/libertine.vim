@@ -13,7 +13,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:
 " UPDATED:      Nov 29, 2017
-" LATEST CHANGES: New Label color
+" LATEST CHANGES: removed htmlArg
 
 
 " MAINTAINER: Alessandro Yorba    https://github.com/AlessandroYorba/Libertine
@@ -98,7 +98,8 @@ if 1
     highlight Identifier           guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30    ctermbg=NONE  cterm=NONE
     highlight Statement            guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30    ctermbg=NONE  cterm=NONE
     highlight htmlStatement        guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30    ctermbg=NONE  cterm=NONE
-    highlight htmlArg              guifg=#d75f00  guibg=NONE     gui=NONE       ctermfg=166   ctermbg=NONE  cterm=NONE
+    "highlight htmlArg              guifg=#d75f00  guibg=NONE     gui=NONE       ctermfg=166   ctermbg=NONE  cterm=NONE
+    highlight htmlArg              guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30   ctermbg=NONE  cterm=NONE
     highlight htmlItalic           guifg=#ffffdf  guibg=NONE     gui=NONE       ctermfg=230   ctermbg=NONE  cterm=NONE
     highlight htmlSpecialTagName   guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30   ctermbg=NONE  cterm=NONE
     highlight ModeMsg              guifg=#ffffdf  guibg=NONE     gui=NONE       ctermfg=230   ctermbg=NONE  cterm=NONE
