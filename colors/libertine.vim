@@ -13,7 +13,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:
 " UPDATED:      Nov 29, 2017
-" LATEST CHANGES: removed htmlArg
+" LATEST CHANGES: Directory and netrwExe to match terminal
 
 
 " MAINTAINER: Alessandro Yorba    https://github.com/AlessandroYorba/Libertine
@@ -107,7 +107,8 @@ if 1
     highlight Todo                 guifg=#a8a8a8  guibg=NONE     gui=reverse    ctermfg=248   ctermbg=NONE  cterm=reverse
     highlight String               guifg=#dfdf00  guibg=NONE     gui=NONE       ctermfg=184   ctermbg=NONE  cterm=NONE
     highlight Number               guifg=#eeeeee  guibg=NONE     gui=NONE       ctermfg=255   ctermbg=NONE  cterm=NONE
-    highlight Directory            guifg=#dfdf00  guibg=NONE     gui=NONE       ctermfg=184   ctermbg=NONE  cterm=NONE
+    highlight Directory            guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
+    highlight netrwExe             guifg=#dfdf00  guibg=NONE     gui=NONE       ctermfg=184   ctermbg=NONE  cterm=NONE
     highlight Visual               guifg=#262626  guibg=#dfdf00  gui=NONE       ctermfg=235   ctermbg=184   cterm=NONE
     highlight Search               guifg=#262626  guibg=#dfdf00  gui=NONE       ctermfg=235   ctermbg=184   cterm=NONE
     highlight Error                guifg=#d75f5f  guibg=NONE     gui=reverse    ctermfg=167   ctermbg=NONE  cterm=reverse
