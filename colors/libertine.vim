@@ -11,8 +11,8 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:
 "
-" UPDATED:      Nov 29, 2017
-" LATEST CHANGES: Directory and NetrExe to match terminal
+" UPDATED:      Dec 3, 2017
+" LATEST CHANGES: Set WINDOW UI to match sierra, StorageClass & Number updated
 "
 " MAINTAINER: Alessandro Yorba    https://github.com/AlessandroYorba/Libertine
 "
@@ -83,7 +83,7 @@ highlight Special              guifg=#af8787  guibg=NONE     gui=NONE       cter
 highlight Operator             guifg=#a8a8a8  guibg=NONE     gui=NONE       ctermfg=248   ctermbg=NONE  cterm=NONE
 highlight Title                guifg=#d75f00  guibg=NONE     gui=NONE       ctermfg=166   ctermbg=NONE  cterm=NONE
 highlight Conditional          guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
-highlight StorageClass         guifg=#c6c6c6  guibg=NONE     gui=NONE       ctermfg=251   ctermbg=NONE  cterm=NONE
+highlight StorageClass         guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
 highlight htmlStatement        guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30    ctermbg=NONE  cterm=NONE
 highlight htmlArg              guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30   ctermbg=NONE  cterm=NONE
 highlight htmlItalic           guifg=#ffffdf  guibg=NONE     gui=NONE       ctermfg=230   ctermbg=NONE  cterm=NONE
@@ -110,7 +110,6 @@ highlight SignColumn           guifg=#87afaf  guibg=NONE     gui=NONE       cter
 highlight ModeMsg              guifg=#ffffdf  guibg=NONE     gui=NONE       ctermfg=230   ctermbg=NONE  cterm=NONE
 highlight WildMenu             guifg=#a8a8a8  guibg=NONE     gui=reverse    ctermfg=248   ctermbg=NONE  cterm=reverse
 highlight Todo                 guifg=#a8a8a8  guibg=NONE     gui=reverse    ctermfg=248   ctermbg=NONE  cterm=reverse
-highlight Number               guifg=#eeeeee  guibg=NONE     gui=NONE       ctermfg=255   ctermbg=NONE  cterm=NONE
 highlight Directory            guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
 highlight netrwExe             guifg=#dfdf00  guibg=NONE     gui=NONE       ctermfg=184   ctermbg=NONE  cterm=NONE
 highlight Visual               guifg=#262626  guibg=#dfdf00  gui=NONE       ctermfg=235   ctermbg=184   cterm=NONE
@@ -129,23 +128,23 @@ if 1
     highlight Comment              guifg=#626262  guibg=NONE     gui=NONE       ctermfg=241   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
-    highlight StatusLine           guifg=#bcbcbc  guibg=#3a3a3a  gui=NONE       ctermfg=250   ctermbg=237   cterm=NONE
-    highlight StatusLineNC         guifg=#767676  guibg=#3a3a3a  gui=NONE       ctermfg=243   ctermbg=237   cterm=NONE
-    highlight Pmenu                guifg=#767676  guibg=#3a3a3a  gui=NONE       ctermfg=243   ctermbg=237   cterm=NONE
-    highlight PmenuSel             guifg=#eeeeee  guibg=#3a3a3a  gui=NONE       ctermfg=255   ctermbg=237   cterm=NONE
-    highlight PmenuSbar            guifg=#3a3a3a  guibg=#3a3a3a  gui=NONE       ctermfg=237   ctermbg=237   cterm=NONE
-    highlight PmenuThumb           guifg=#3a3a3a  guibg=#3a3a3a  gui=NONE       ctermfg=237   ctermbg=237   cterm=NONE
-    highlight TabLine              guifg=#767676  guibg=#3a3a3a  gui=NONE       ctermfg=243   ctermbg=237   cterm=NONE
-    highlight TabLineSel           guifg=#bcbcbc  guibg=#3a3a3a  gui=NONE       ctermfg=250   ctermbg=237   cterm=NONE
-    highlight TabLineFill          guifg=#767676  guibg=#3a3a3a  gui=NONE       ctermfg=243   ctermbg=237   cterm=NONE
-    highlight CursorLine           guifg=NONE     guibg=#262626  gui=NONE       ctermfg=NONE  ctermbg=235   cterm=NONE
-    highlight CursorColumn         guifg=NONE     guibg=#3a3a3a  gui=NONE       ctermfg=NONE  ctermbg=237   cterm=NONE
-    highlight ColorColumn          guifg=NONE     guibg=#3a3a3a  gui=NONE       ctermfg=NONE  ctermbg=237   cterm=NONE
-    highlight Folded               guifg=#585858  guibg=NONE     gui=NONE       ctermfg=240   ctermbg=NONE  cterm=NONE
-    highlight VertSplit            guifg=#444444  guibg=#303030  gui=NONE       ctermfg=238   ctermbg=236   cterm=NONE
-    highlight LineNr               guifg=#4e4e4e  guibg=#262626  gui=NONE       ctermfg=239   ctermbg=235   cterm=NONE
-    highlight NonText              guifg=#444444  guibg=NONE     gui=NONE       ctermfg=238   ctermbg=NONE  cterm=NONE
-    highlight SpecialKey           guifg=#444444  guibg=NONE     gui=NONE       ctermfg=238   ctermbg=NONE  cterm=NONE
+	highlight StatusLine           guifg=#eeeeee  guibg=#262626  gui=NONE     ctermfg=255   ctermbg=235   cterm=NONE
+	highlight StatusLineNC         guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
+    highlight Pmenu                guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
+    highlight PmenuSel             guifg=#eeeeee  guibg=#262626  gui=NONE     ctermfg=255   ctermbg=235   cterm=NONE
+    highlight PmenuSbar            guifg=#262626  guibg=#262626  gui=NONE     ctermfg=235   ctermbg=235   cterm=NONE
+    highlight PmenuThumb           guifg=#262626  guibg=#262626  gui=NONE     ctermfg=235   ctermbg=235   cterm=NONE
+    highlight TabLine              guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
+    highlight TabLineSel           guifg=#eeeeee  guibg=#262626  gui=NONE     ctermfg=255   ctermbg=235   cterm=NONE
+    highlight TabLineFill          guifg=NONE     guibg=#262626  gui=NONE     ctermfg=NONE  ctermbg=235   cterm=NONE
+    highlight CursorLine           guifg=NONE     guibg=#262626  gui=NONE     ctermfg=NONE  ctermbg=235   cterm=NONE
+    highlight CursorColumn         guifg=NONE     guibg=#3a3a3a  gui=NONE     ctermfg=NONE  ctermbg=237   cterm=NONE
+    highlight ColorColumn          guifg=NONE     guibg=#3a3a3a  gui=NONE     ctermfg=NONE  ctermbg=237   cterm=NONE
+    highlight Folded               guifg=#626262  guibg=NONE     gui=NONE     ctermfg=241   ctermbg=NONE  cterm=NONE
+    highlight VertSplit            guifg=#444444  guibg=#303030  gui=NONE     ctermfg=238   ctermbg=236   cterm=NONE
+    highlight LineNr               guifg=#4e4e4e  guibg=#262626  gui=NONE     ctermfg=239   ctermbg=235   cterm=NONE
+    highlight NonText              guifg=#444444  guibg=NONE     gui=NONE     ctermfg=238   ctermbg=NONE  cterm=NONE
+    highlight SpecialKey           guifg=#444444  guibg=NONE     gui=NONE     ctermfg=238   ctermbg=NONE  cterm=NONE
 endif
 
 
