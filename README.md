@@ -3,10 +3,9 @@
 :space_invader: Set Up
 ------
 ###### Modes 
-The default UI for Libertine is a Medium grey UI. However, depending on certain lighting conditions, time of day or personal preference you might want to try some of the darker versions available. [screenshots of all modes](https://github.com/AlessandroYorba/Libertine/issues/1)
-To enable, add one of the following settings to your .vimrc 
+The default UI for Libertine is a Grey. However, depending on certain lighting conditions, time of day or personal preference you might want to try some of the darker versions available. [screenshots of all modes](https://github.com/AlessandroYorba/Libertine/issues/1).
 
-###### [Grey UI](https://user-images.githubusercontent.com/11221489/33579389-867ff5d4-d8fe-11e7-8c70-e2da17dddbc8.png)
+###### [Grey](https://user-images.githubusercontent.com/11221489/33579389-867ff5d4-d8fe-11e7-8c70-e2da17dddbc8.png)
 ```
 colorscheme libertine 
 ```
