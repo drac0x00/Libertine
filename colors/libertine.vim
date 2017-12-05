@@ -11,8 +11,8 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:
 "
-" UPDATED:      Dec 3, 2017
-" LATEST CHANGES: Added Sunset, Twilight, Midnight, Pitch
+" UPDATED:      Dec 4, 2017
+" LATEST CHANGES: Added MoreMsg
 "
 " MAINTAINER: Alessandro Yorba    https://github.com/AlessandroYorba/Libertine
 "
@@ -94,13 +94,13 @@ highlight Statement            guifg=#008787  guibg=NONE     gui=NONE       cter
 highlight Constant             guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178   ctermbg=NONE  cterm=NONE
 highlight Type                 guifg=#d75f00  guibg=NONE     gui=NONE       ctermfg=166   ctermbg=NONE  cterm=NONE
 highlight String               guifg=#dfdf00  guibg=NONE     gui=NONE       ctermfg=184   ctermbg=NONE  cterm=NONE
-highlight Special              guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
+highlight Special              guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138   ctermbg=NONE  cterm=NONE
 highlight Operator             guifg=#a8a8a8  guibg=NONE     gui=NONE       ctermfg=248   ctermbg=NONE  cterm=NONE
 highlight Title                guifg=#d75f00  guibg=NONE     gui=NONE       ctermfg=166   ctermbg=NONE  cterm=NONE
-highlight Conditional          guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
+highlight Conditional          guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138   ctermbg=NONE  cterm=NONE
 highlight StorageClass         guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
 highlight htmlStatement        guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30    ctermbg=NONE  cterm=NONE
-highlight htmlArg              guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30   ctermbg=NONE  cterm=NONE
+highlight htmlArg              guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30    ctermbg=NONE  cterm=NONE
 highlight htmlItalic           guifg=#ffffdf  guibg=NONE     gui=NONE       ctermfg=230   ctermbg=NONE  cterm=NONE
 
 "DIFF
@@ -132,10 +132,10 @@ highlight Search               guifg=#262626  guibg=#dfdf00  gui=NONE       cter
 highlight Error                guifg=#d75f5f  guibg=NONE     gui=reverse    ctermfg=167   ctermbg=NONE  cterm=reverse
 highlight ErrorMsg             guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167   ctermbg=NONE  cterm=NONE
 highlight WarningMsg           guifg=#dfdf00  guibg=NONE     gui=NONE       ctermfg=184   ctermbg=NONE  cterm=NONE
+highlight ModeMsg              guifg=#dfdf00  guibg=NONE     gui=NONE       ctermfg=184   ctermbg=NONE  cterm=NONE
 highlight Cursor               guifg=#000000  guibg=#ffffff  gui=NONE       ctermfg=16    ctermbg=231   cterm=NONE
 highlight CursorLineNr         guifg=#a8a8a8  guibg=NONE     gui=reverse    ctermfg=248   ctermbg=NONE  cterm=reverse
 highlight MatchParen           guifg=#a8a8a8  guibg=NONE     gui=reverse    ctermfg=248   ctermbg=NONE  cterm=reverse
-
 "DAY:
 if 1
     "COLORS
@@ -265,6 +265,7 @@ if g:libertine_Pitch
     highlight NonText           guifg=#1c1c1c  guibg=NONE     gui=NONE     ctermfg=234   ctermbg=NONE  cterm=NONE
     highlight SpecialKey        guifg=#1c1c1c  guibg=NONE     gui=NONE     ctermfg=234   ctermbg=NONE  cterm=NONE
 endif
+
 
 " LICENSE:
 " Copyright (c) 2017 Alessandro Yorba
