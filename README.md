@@ -4,7 +4,7 @@
 ------
 The default UI for Libertine is Grey. However, depending on certain lighting conditions, time of day or personal preference you might want to try some of the darker versions available. [screenshots of all modes](https://github.com/AlessandroYorba/Libertine/issues/1).
 
-###### [Grey]()
+###### [Grey](https://user-images.githubusercontent.com/11221489/33653196-166c4c88-da21-11e7-824a-152333d00c24.png)
 ```
 colorscheme libertine 
 ```
